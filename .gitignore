@@ -1,5 +1,7 @@
 # Application
 web/app/plugins/*
+!web/app/plugins/namaste-post-types/
+!web/app/plugins/testeleven-positioned/
 !web/app/plugins/.gitkeep
 web/app/mu-plugins/*
 !web/app/mu-plugins/.gitkeep

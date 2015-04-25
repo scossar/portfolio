@@ -1,0 +1,73 @@
+.splash-wrapper {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.home .what-we-do {
+  width: 100%;
+}
+
+@media (min-width: @screen-sm-min) {
+  .home .what-we-do {
+    width: 66%;
+  }
+}
+
+// Center the 'who-we-are' div vertically and horizontally
+.home .what-we-do {
+  margin: auto;
+  text-align: center;
+  position: absolute;
+  top: 66%;
+  left: 50%;
+  -ms-transform: translateX(-50%) translateY(66%);
+  -webkit-transform: translateX(-50%) translateY(66%);
+  transform: translateX(-50%) translateY(-66%);
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.home .what-we-do .action-call {
+  .btn;
+  .btn-default;
+  .btn-lg;
+  margin: @rhythm * 1.5 auto;
+}
+
+.home .more-info h2 {
+  margin: 0;
+}
+.home .more-info .glyphicon {
+  font-size: @font-size-h1;
+//  color: @brand-secondary;
+  margin-top: @rhythm;
+}
+
+// How we do it
+.how-we-do-it h2 {
+  .make-sm-column(12);
+  text-align: center;
+}
+
+.how-we-do-it .positioned_full header {
+  .make-sm-column(12);
+  text-align: center;
+}
+
+.how-we-do-it .positioned_full .entry-content {
+  .make-sm-column(8);
+  .make-sm-column-offset(2);
+  text-align: center;
+}
+
+.how-we-do-it .image-panel-image {
+  .make-sm-column(4);
+  .make-sm-column-offset(4);
+}
+
+.image-panel {
+//  .clearfix;
+  background: #000;
+}
