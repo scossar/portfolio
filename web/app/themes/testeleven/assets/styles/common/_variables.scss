@@ -1,0 +1,20 @@
+// Grid settings
+$main-sm-columns:       12;
+$sidebar-sm-columns:    4;
+
+// Colors
+$brand-primary:         #8daa6d;
+$brand-secondary: #5d2957;
+$gray-base: #20151e;
+$inverse-color: #e7eee2;
+$link-color: $brand-primary;
+$body-bg: #ffffff;
+
+// Font sizes
+$font-size-base: 18px;
+$line-height-base:        1.428571429; // 20/14
+$line-height-computed: floor(($font-size-base * $line-height-base));
+$rhythm: $line-height-computed;
+$half-rhythm: floor($rhythm * 0.5);
+$quarter-rhythm: floor($rhythm * 0.25);
+

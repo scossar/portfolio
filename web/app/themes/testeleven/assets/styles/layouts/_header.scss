@@ -1,0 +1,38 @@
+.banner {
+  background: $brand-primary;
+}
+
+.header-secondary {
+  @include make-sm-column(12);
+}
+
+.site-logo {
+  @include make-sm-column(3);
+}
+
+.primary-nav-container {
+  @include make-sm-column(9);
+}
+
+.header-secondary ul {
+  margin-top: $quarter-rhythm;
+  float: right;
+  line-height: 1;
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+  li {
+    display: inline-block;
+    border-right: 1px solid $inverse-color;
+    padding-right: $half-rhythm;
+    margin-right: $half-rhythm;
+  }
+  li:last-child {
+    border: none;
+    padding-right: 0;
+    margin-right: 0;
+  }
+  a {
+    font-size: 14px;
+  }
+}
